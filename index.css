@@ -25,6 +25,11 @@ header nav a {
     color: rgb(111, 111, 111);
     text-decoration: none;
     text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    
+    
 }
 
 header .user-panel {
