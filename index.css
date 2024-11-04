@@ -125,3 +125,93 @@ button i {
     margin-left: -1rem;
     margin-right: .5rem;
 }
+
+/* popular movies - section suggestion */
+/* RPopular Movies Part */
+
+.popular-movies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+section h3 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section h6 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.643);
+}
+
+.h3h6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-movies1 {
+    border: 1px solid  black;
+    margin: 1.5rem 0;
+    padding: 1rem ;
+    width: 40%;
+    
+}
+
+.popular-movies2 {
+    border: 1px solid  black;
+    margin: 2rem 0;
+    padding: 1rem ;
+    width: 40%;
+    
+}
+
+.popular-movies3 {
+    border: 1px solid  black;
+    margin: 2rem 0;
+    padding: 1rem ;
+    width: 40%;
+}
+
+
+/* Recommended Movies Part */
+.recommended-movies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.recommended-movies1 {
+    border: 1px solid  black;
+    margin: 1.5rem 0;
+    padding: 1rem ;
+    width: 40%;
+}
+
+.recommended-movies2 {
+    border: 1px solid  black;
+    margin: 2rem 0;
+    padding: 1rem ;
+    width: 40%;
+    
+}
+
+.recommended-movies3 {
+    border: 1px solid  black;
+    margin: 2rem 0;
+    padding: 1rem ;
+    width: 40%;
+}
+
+
+
