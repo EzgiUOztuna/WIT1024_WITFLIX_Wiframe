@@ -31,7 +31,7 @@ header .user-panel {
     align-items: center;
     gap: .5rem;
 }
-
+/* **************************** SEARCH PANEL 👇🏻 **************************** */
 header .search-panel{
     display:flex;
     align-items: center;
@@ -39,8 +39,7 @@ header .search-panel{
     background: rgba(255, 255, 255, 0.4);
     border-radius: 0px;
     border: 1px solid rgba(69, 63, 63, 0.178);
-    width: auto;
-    
+    width: auto;  
 }
 
 .search-panel a {
@@ -55,8 +54,6 @@ header .search-panel{
     font-size: 1.1rem;
     padding: .3rem;
     width: rem;
-    
-    
 }
 
 .search-panel input {
@@ -67,8 +64,7 @@ header .search-panel{
     outline: none;
     color: rgb(50, 37, 37);
 }
-
-
+/* **************************** SEARCH PANEL 👆🏻 **************************** */
 
 .user-panel img {
     border-radius: 100px;
