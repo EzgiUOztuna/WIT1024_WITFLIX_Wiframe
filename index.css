@@ -24,6 +24,7 @@ header nav {
 header nav a {
     color: rgb(111, 111, 111);
     text-decoration: none;
+    text-align: center;
 }
 
 header .user-panel {
@@ -112,6 +113,7 @@ button {
     border-radius: .5rem;
     color: white;
     font-size: 1.2rem;
+    margin: 1rem 0;
 }
 
 button i {
