@@ -120,6 +120,10 @@ header .search-panel{
     display: block;
   }
 
+  .menu:hover {
+    display: block;
+  }
+
 
 /* hero */
 main {
