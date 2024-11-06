@@ -81,9 +81,44 @@ header .search-panel{
     width: 2.5rem;
 }
 
-.nav-menu {
+.menu-icon {  /*hamburger menünün/menu icon'ın stilini ayarladım.*/
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+  }
+
+  .menu { /* başlangıçta gizli olmasını sağladım.*/
     display: none;
-}
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  .menu ul {
+    list-style: none; /*başlarındaki madde işaretini yok ettim.*/
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu ul li {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+  }
+
+  .menu ul li:hover {
+    background-color: #555;
+  }
+  
+  .menu-icon:hover + .menu { /*hamburger menü/menu icon üzerine gelince menüyü göstermesini sağladım.*/
+    display: block;
+  }
+
 
 /* hero */
 main {
@@ -168,9 +203,9 @@ section h3 {
 
 .popular-movies-card, .recommended-movies-card {
     border: 1px solid  black;
-    /*min-width: 250px;*/
+    min-width: 250px;
     padding: 1.5rem 1rem;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 /* Footer Part */
@@ -215,7 +250,6 @@ footer {
     min-width: 100px;
     padding: 0
     display: flex;
-    
 }
 
 .social-networks i {
