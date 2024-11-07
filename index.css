@@ -44,13 +44,15 @@ header .user-panel {
 /* **************************** SEARCH PANEL 👇🏻 **************************** */
 header .search-panel{
     display:flex;
-    align-items: center;
+    align-items: flex-end;
     gap: .5rem;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 0px;
     border: 1px solid rgba(69, 63, 63, 0.178);
-    width: auto;  
+    max-width: 185px;  
     flex: 1;
+    padding: 0;
+    justify-content: flex-end;
 }
 
 .search-panel a {
@@ -59,12 +61,12 @@ header .search-panel{
     border: none;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-decoration: none;
     font-size: 1.1rem;
     padding: .3rem;
-    width: rem;
+    width: 1rem;
 }
 
 .search-panel input {
@@ -74,6 +76,7 @@ header .search-panel{
     background: none;
     outline: none;
     color: rgb(50, 37, 37);
+    justify-content: flex-end;
 }
 /* **************************** SEARCH PANEL 👆🏻 **************************** */
 
