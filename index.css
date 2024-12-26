@@ -13,7 +13,7 @@ header {
 
 header h1 {
     color: red;
-    margin:0;
+    margin: 0;
     flex: 1;
 }
 
@@ -29,27 +29,27 @@ header nav a {
     justify-content: center;
     margin: 0 auto;
     padding: 1rem;
-    
-    
+
+
 }
 
 header .user-panel {
-    display:flex;
+    display: flex;
     align-items: center;
     gap: .5rem;
     flex: 1;
-    justify-content: flex-end; 
+    justify-content: flex-end;
 }
 
 /* **************************** SEARCH PANEL 👇🏻 **************************** */
-header .search-panel{
-    display:flex;
+header .search-panel {
+    display: flex;
     align-items: flex-end;
     gap: .5rem;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 0px;
     border: 1px solid rgba(69, 63, 63, 0.178);
-    max-width: 185px;  
+    max-width: 185px;
     flex: 1;
     padding: 0;
     justify-content: flex-end;
@@ -78,6 +78,7 @@ header .search-panel{
     color: rgb(50, 37, 37);
     justify-content: flex-end;
 }
+
 /* **************************** SEARCH PANEL 👆🏻 **************************** */
 
 .user-panel img {
@@ -85,14 +86,16 @@ header .search-panel{
     width: 2.5rem;
 }
 
-.menu-icon {  /*hamburger menünün/menu icon'ın stilini ayarladım.*/
+.menu-icon {
+    /*hamburger menünün/menu icon'ın stilini ayarladım.*/
     font-size: 25px;
     cursor: pointer;
     display: inline-block;
     position: relative;
-  }
+}
 
-  .menu { /* başlangıçta gizli olmasını sağladım.*/
+.menu {
+    /* başlangıçta gizli olmasını sağladım.*/
     display: none;
     background-color: #333;
     position: absolute;
@@ -101,44 +104,46 @@ header .search-panel{
     width: 200px;
     border-radius: 5px;
     padding: 10px 0;
-  }
+}
 
-  .menu ul {
-    list-style: none; /*başlarındaki madde işaretini yok ettim.*/
+.menu ul {
+    list-style: none;
+    /*başlarındaki madde işaretini yok ettim.*/
     padding: 0;
     margin: 0;
-  }
+}
 
-  .menu ul li {
+.menu ul li {
     color: #fff;
     padding: 10px 20px;
     text-align: left;
-  }
+}
 
-  .menu ul li:hover {
+.menu ul li:hover {
     background-color: #555;
-  }
-  
-  .menu-icon:hover + .menu { /*hamburger menü/menu icon üzerine gelince menüyü göstermesini sağladım.*/
-    display: block;
-  }
+}
 
-  .menu:hover {
+.menu-icon:hover+.menu {
+    /*hamburger menü/menu icon üzerine gelince menüyü göstermesini sağladım.*/
     display: block;
-  }
+}
+
+.menu:hover {
+    display: block;
+}
 
 
 /* hero */
 main {
     aspect-ratio: 5/3;
-    border: 1px solid  black;
+    border: 1px solid black;
     margin: 2rem 0;
     padding-left: 1rem;
     display: flex;
     align-items: center;
     max-height: 400px;
     width: 98.5%;
-    
+
 }
 
 .main-movie h2 {
@@ -147,7 +152,7 @@ main {
 
 
 .user-rating i {
-    color:red;
+    color: red;
 }
 
 .content-rating {
@@ -163,7 +168,8 @@ main {
 
 .movie-details span {
     color: red;
-    font-weight: bold;;
+    font-weight: bold;
+    ;
 }
 
 .movie-details p {
@@ -187,11 +193,12 @@ button i {
 
 /* section suggestion */
 
-.Pop-Movies-titles, .Rec-Movies-titles {
+.Pop-Movies-titles,
+.Rec-Movies-titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.5rem ;
+    margin-top: 3.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -200,7 +207,7 @@ section a {
     text-decoration: none;
 }
 
-section a:hover{
+section a:hover {
     color: red;
 }
 
@@ -209,7 +216,8 @@ section h3 {
     padding: 0;
 }
 
-.popular-movies, .recommended-movies {
+.popular-movies,
+.recommended-movies {
     display: flex;
     gap: 2rem;
     margin: 1rem 0;
@@ -217,12 +225,13 @@ section h3 {
     overflow-x: auto;
 }
 
-.popular-movies-card, .recommended-movies-card {
-    border: 1px solid  black;
+.popular-movies-card,
+.recommended-movies-card {
+    border: 1px solid black;
     min-width: 250px;
     padding: 1.5rem 1rem;
     /*width: 100%;*/
-    
+
 }
 
 /* Footer Part */
@@ -264,14 +273,13 @@ footer {
 
 .social-networks {
     min-width: 100px;
-    padding: 0
-    display: flex;
+    padding: 0 display: flex;
 }
 
 .social-networks i {
     margin-top: 0;
     padding: 0;
-    
+
 }
 
 footer h5 {
@@ -302,6 +310,7 @@ footer h5 {
     header {
         flex-wrap: wrap;
     }
+
     header nav {
         order: 1;
         width: 100%;
@@ -329,7 +338,8 @@ footer h5 {
         justify-content: center;
     }
 
-    .social-networks, .downloads {
+    .social-networks,
+    .downloads {
         width: 100%;
     }
 }
